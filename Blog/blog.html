@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 1 - Blog de Tecnologia</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="../index.html" class="btn-voltar">&larr; Voltar ao Menu</a>
+      <div class="logo">BlogTech<span>.io</span></div>
+    </div>
+  </header>
+
+  <div class="hero-header">
+    <div class="container">
+      <h1>Blog de Tecnologia</h1>
+      <p class="tagline">Artigos, tutoriais e novidades sobre desenvolvimento de software</p>
+    </div>
+  </div>
+
+  <main>
+    <div class="container main-layout">
+      
+      <div class="posts-column">
+        
+        <article class="post">
+          <h2>Introdução às Variáveis CSS (Custom Properties)</h2>
+          <div class="post-meta">
+            <span>Publicado em 14 de Setembro de 2026</span>
+            <span>•</span>
+            <span>Por DevTeam</span>
+          </div>
+          
+          <h3>Por que utilizar variáveis no CSS?</h3>
+          <p class="texto-centro">As variáveis CSS, também conhecidas como Custom Properties, revolucionaram a forma como escrevemos e mantemos folhas de estilo no desenvolvimento web moderno. Elas permitem centralizar valores como cores, fontes, espaçamentos e sombras em um único local do seu código.</p>
+          <p class="texto-direita">Isso torna a manutenção do projeto muito mais ágil, reduz a duplicação de dados e facilita a implementação de recursos avançados, como a alternância dinâmica para o modo escuro (Dark Mode).</p>
+          
+          <h3>Exemplo Prático e Sintaxe Básica</h3>
+          <p class="texto-esquerda">Diferente dos pré-processadores tradicionais (como Sass ou LESS), as variáveis CSS nativas funcionam diretamente no navegador e respondem em tempo real a alterações via JavaScript.</p>
+          <p class="texto-justificado">Sua declaração geralmente é feita no escopo global através da pseudo-classe <code>:root</code>, permitindo que qualquer elemento do documento possa reutilizar seus valores.</p>
+          
+          <a href="#" class="leia-mais">Ler artigo completo &rarr;</a>
+        </article>
+
+        <article class="post">
+          <h2>A Importância da Semântica no HTML5</h2>
+          <div class="post-meta">
+            <span>Publicado em 10 de Setembro de 2026</span>
+            <span>•</span>
+            <span>Por DevTeam</span>
+          </div>
+          
+          <h3>Acessibilidade e SEO em Primeiro Lugar</h3>
+          <p class="texto-centro">Utilizar tags semânticas como <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code> e <code>&lt;footer&gt;</code> vai muito além de organizar a estrutura visual do seu projeto.</p>
+          <p class="texto-direita">Elementos semânticos ajudam os leitores de tela a estruturar a leitura para pessoas com deficiência visual e fornecem pistas claras aos motores de busca (como o Google) sobre a hierarquia e relevância do seu conteúdo.</p>
+          
+          <a href="#" class="leia-mais">Ler artigo completo &rarr;</a>
+        </article>
+
+      </div>
+
+      <aside class="sidebar">
+        
+        <div class="widget">
+          <h4>Sobre o Blog</h4>
+          <p class="texto-justificado">Um espaço dedicado a compartilhar conhecimentos fundamentais e avançados sobre desenvolvimento web, CSS, acessibilidade e boas práticas de código.</p>
+        </div>
+
+        <div class="widget">
+          <h4>Categorias</h4>
+          <ul>
+            <li><a href="#">Desenvolvimento Web</a></li>
+            <li><a href="#">CSS & Design Layouts</a></li>
+            <li><a href="#">Segurança da Informação</a></li>
+            <li><a href="#">JavaScript & Algoritmos</a></li>
+            <li><a href="#">Acessibilidade Digital</a></li>
+          </ul>
+        </div>
+
+        <div class="widget">
+          <h4>Tags Populares</h4>
+          <div class="tags-container">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">Flexbox</span>
+            <span class="tag">Grid</span>
+            <span class="tag">Web Design</span>
+          </div>
+        </div>
+
+      </aside>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 BlogTech.io. Todos os direitos reservados.</p>
+      <p class="footer-credits">Exercício 1 — Estrutura Semântica e Layout CSS</p>
+    </div>
+  </footer>
+
+</body>
+</html>
